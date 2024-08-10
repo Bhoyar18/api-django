@@ -1,6 +1,6 @@
 # usingmixins api
 from django.urls import path
-from api import views
+from mixinapi import views
 
 urlpatterns=[
     path('snippets/',views.SnippetList.as_view()),
