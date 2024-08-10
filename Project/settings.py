@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'api',
     'authapi',
     'classbaseapi',
+    'mixinapi',
     'rest_framework'
 ]
 
